@@ -1,9 +1,9 @@
 import '../entities/todo.dart';
 import '../repositories/todo_repository.dart';
 
-class UpdateTodoUsecase {
+class UpdateTodoUseCase {
   final TodoRepository todoRepository;
-  UpdateTodoUsecase(this.todoRepository);
+  UpdateTodoUseCase(this.todoRepository);
 
   // update todo
   Future<Todo> execute({

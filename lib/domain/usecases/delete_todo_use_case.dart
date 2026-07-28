@@ -1,8 +1,8 @@
 import '../repositories/todo_repository.dart';
 
-class DeleteTodoUsecase {
+class DeleteTodoUseCase {
   final TodoRepository todoRepository;
-  DeleteTodoUsecase(this.todoRepository);
+  DeleteTodoUseCase(this.todoRepository);
 
   // delete todo
   Future<void> execute(String id) async {

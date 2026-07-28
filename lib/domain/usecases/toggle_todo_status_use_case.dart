@@ -1,9 +1,9 @@
 import '../entities/todo.dart';
 import '../repositories/todo_repository.dart';
 
-class ToggleTodoStatusUsecase {
+class ToggleTodoStatusUseCase {
   final TodoRepository todoRepository;
-  ToggleTodoStatusUsecase(this.todoRepository);
+  ToggleTodoStatusUseCase(this.todoRepository);
 
   // toggle todo status
   Future<Todo> execute(Todo todo) async {
