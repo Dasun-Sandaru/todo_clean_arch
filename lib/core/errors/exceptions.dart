@@ -57,3 +57,7 @@ class ForbiddenException extends AppException {
 class InvalidInputException extends AppException {
   InvalidInputException({required String message}) : super(message);
 }
+
+class CacheException extends AppException {
+  CacheException([super.message = 'Cache Error']);
+}

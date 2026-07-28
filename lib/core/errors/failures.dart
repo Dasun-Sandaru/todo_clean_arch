@@ -20,5 +20,4 @@ class DatabaseFailure extends Failures {
 // failure for domain/business rule related issues
 class DomainFailure extends Failures {
   DomainFailure([super.message = 'Domain Failure']);
-
 }
