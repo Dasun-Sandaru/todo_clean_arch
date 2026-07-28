@@ -21,3 +21,39 @@ class DatabaseException extends AppException {
 class DomainException extends AppException {
   DomainException([super.message = 'Business Error']);
 }
+
+class NetworkException extends AppException {
+  NetworkException({required String message}) : super(message);
+}
+
+class UnauthorizedException extends AppException {
+  UnauthorizedException({required String message}) : super(message);
+}
+
+class BadRequestException extends AppException {
+  BadRequestException({required String message}) : super(message);
+}
+
+class NotFoundException extends AppException {
+  NotFoundException({required String message}) : super(message);
+}
+
+class RequestCancelledException extends AppException {
+  RequestCancelledException({required String message}) : super(message);
+}
+
+class UnknownException extends AppException {
+  UnknownException({required String message}) : super(message);
+}
+
+class ConflictException extends AppException {
+  ConflictException({required String message}) : super(message);
+}
+
+class ForbiddenException extends AppException {
+  ForbiddenException({required String message}) : super(message);
+}
+
+class InvalidInputException extends AppException {
+  InvalidInputException({required String message}) : super(message);
+}
